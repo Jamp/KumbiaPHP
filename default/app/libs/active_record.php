@@ -1,18 +1,19 @@
 <?php
 /**
+ * @see KumbiaActiveRecord
+ */
+Load::coreLib('kumbia_active_record');
+
+/**
  * ActiveRecord
  *
- * Esta clase es la clase padre de todos los modelos
- * de la aplicacion
+ * Clase padre ActiveRecord para añadir tus métodos propios
  *
  * @category Kumbia
  * @package Db
  * @subpackage ActiveRecord
  */
-
-// Carga el active record
-Load::coreLib('kumbia_active_record');
-
-class ActiveRecord extends KumbiaActiveRecord {
+class ActiveRecord extends KumbiaActiveRecord
+{
 
 }
